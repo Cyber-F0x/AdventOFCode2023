@@ -12,9 +12,11 @@ import os
 
 def main():
     acc = 0
-    with open("input.txt",'r') as file:
+    with open("E:\AdventOfCode2023\Day02\input.txt",'r') as file:
         for each_line in file:
             acc = acc + get_ints_from_cal(each_line)
+            
+            
     print(acc)
     
 def get_ints_from_cal(cal_val):

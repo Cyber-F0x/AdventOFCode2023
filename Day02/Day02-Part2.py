@@ -42,7 +42,6 @@ def check_line(ints,colours):
     power = prod(maxes.values())
     return possible,power
                       
-                      
     
 def list_split(list):  
     return list[::2], list[1::2]
